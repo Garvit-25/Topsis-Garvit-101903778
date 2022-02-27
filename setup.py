@@ -1,8 +1,7 @@
 from distutils.core import setup
-from setuptools import find_packages
 setup(
   name = 'Topsis-Garvit-101903778',         
-  packages = find_packages(),   
+  packages = ['Topsis-Garvit-101903778'],   
   version = '0.1',      
   license='MIT',        
   description = 'A Python package to find TOPSIS for multi-criteria decision analysis method',   # Give a short description about your library
